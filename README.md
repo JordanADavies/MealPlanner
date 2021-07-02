@@ -1,3 +1,3 @@
 # meal_planner
 
-Meal planner app using BLoc, Provider and RxDart. Includes Unit and Widget tests.
+Meal planner app using BLoC, Provider and RxDart. Includes Unit and Widget tests.
