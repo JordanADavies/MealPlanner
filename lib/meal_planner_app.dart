@@ -11,6 +11,7 @@ class MealPlannerApp extends StatelessWidget {
       theme: defaultTheme,
       home: Provider(
         create: (_) => CalendarBloc(),
+        dispose: (_, CalendarBloc bloc) => bloc.dispose(),
         child: CalendarTabsPage(),
       ),
     );
