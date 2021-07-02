@@ -12,9 +12,16 @@ dependencies:
   flutter:
     sdk: flutter
 
+  rxdart: ^0.27.1
+  provider: ^5.0.0
+  quiver: ^3.0.1
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+  build_runner: any
+  mockito: any
 
 flutter:
   uses-material-design: true
