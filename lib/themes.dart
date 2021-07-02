@@ -19,7 +19,25 @@ final defaultTheme = ThemeData(
   primaryColor: Colors.white,
   accentColor: Colors.black,
   scaffoldBackgroundColor: Colors.white,
+  appBarTheme: AppBarTheme(
+    elevation: 0.0,
+  ),
+  cardTheme: CardTheme(
+    color: Colors.grey[300],
+    margin: EdgeInsets.symmetric(vertical: 4.0),
+  ),
   tabBarTheme: TabBarTheme(
     labelColor: Colors.black,
+  ),
+  textButtonTheme: TextButtonThemeData(
+    style: ButtonStyle(
+      padding: MaterialStateProperty.all<EdgeInsetsGeometry>(
+          EdgeInsets.symmetric(horizontal: 20.0)),
+      foregroundColor: MaterialStateProperty.all<Color>(Colors.white),
+      backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
+      shape: MaterialStateProperty.all<OutlinedBorder>(
+        RoundedRectangleBorder(borderRadius: BorderRadius.circular(12.0)),
+      ),
+    ),
   ),
 );

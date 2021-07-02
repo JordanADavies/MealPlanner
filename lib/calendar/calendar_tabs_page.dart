@@ -20,6 +20,7 @@ class CalendarTabsPage extends StatelessWidget {
                 ),
               ),
               Container(
+                color: Theme.of(context).cardTheme.color,
                 child: TabBar(
                   tabs: [
                     Tab(text: "Day"),
